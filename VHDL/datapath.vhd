@@ -14,7 +14,7 @@ entity datapath is
 	port(
 		clk, rst : IN std_logic;
 
-		DATA_A, DATA_K : IN std_logic_vector(DATA_WIDTH - 1 downto 0);
+		DATA_IN : IN std_logic_vector(DATA_WIDTH - 1 downto 0);
 		DATA_OUT : OUT std_logic_vector(DATA_WIDTH-1 downto 0);
 
 		WE_A, RE_A, WE_K, RE_K, WE_B, RE_B : IN std_logic;
@@ -29,8 +29,9 @@ end datapath;
 architecture RTL of datapath is
 	Constant ADDR_WIDTH : integer := 8;
 
+	signal DATA_K : std_logic_vector(DATA_WIDTH - 1 downto 0);
 	signal br, bc, kr, kc: std_logic_vector(DATA_WIDTH-1 downto 0);
-	signal A_row_idx, A_col_idx, K_row_idx, K_col_idx, B_row_idx, B_col_idx: std_logic_vector(DATA_WIDTH-1 downto 0);
+	signal A_row, A_col : std_logic_vector(DATA_WIDTH-1 downto 0);
 	signal A_addr, K_addr, B_addr: std_logic_vector(ADDR_WIDTH-1 downto 0);
 	signal MA_out, MK_out, MB_out: std_logic_vector(DATA_WIDTH-1 downto 0);
 	signal MUL_AK: std_logic_vector(DATA_WIDTH-1 downto 0);
@@ -51,18 +52,14 @@ begin
 	z_kc <= '1' when kc = x"03" else '0';
 	
 	-- Adder
-	A_row_idx <= br + kr;
-	A_col_idx <= bc + kc;	
-	K_row_idx <= kr;
-	K_col_idx <= kc;
-	B_row_idx <= br;
-	B_col_idx <= bc;
+	A_row <= br + kr;
+	A_col <= bc + kc;	
 	MB_tmp <= MB_out + MUL_AK;
 	
 	-- Convert 2D addr to 1D addr block
-	tmp1 <= (A_row_idx * x"05") + A_col_idx;   	-- 5*5 input 
-	tmp2 <= (K_row_idx * x"03") + K_col_idx;	-- 3*3 kernel
-	tmp3 <= (B_row_idx * x"03") + B_col_idx;	-- 3*3 output
+	tmp1 <= (A_row * x"05") + A_col;   	-- 5*5 input 
+	tmp2 <= (kr * x"03") + kc;					-- 3*3 kernel
+	tmp3 <= (br * x"03") + bc;					-- 3*3 output
 	A_addr <= tmp1(7 downto 0);
 	K_addr <= tmp2(7 downto 0);
 	B_addr <= tmp3(7 downto 0);
@@ -85,7 +82,7 @@ begin
 		Wen => WE_A,
 		Ren => RE_A,
 		Addr => A_addr,
-		Din => DATA_A,
+		Din => DATA_IN,
 		Dout => MA_out
 	);
 	-- K memory (kernel)

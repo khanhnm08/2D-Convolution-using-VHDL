@@ -14,7 +14,7 @@ architecture BHV of Conv_tb is
 	Constant ADDR_WIDTH : integer := 8;
 
 	Signal start, clk, rst : std_logic;
-	Signal DATA_A, DATA_K : std_logic_vector(DATA_WIDTH - 1 downto 0);
+	Signal DATA_IN : std_logic_vector(DATA_WIDTH - 1 downto 0);
 	Signal DATA_OUT : std_logic_vector(DATA_WIDTH-1 downto 0);
 	
 	signal PIXEL_DONE, DONE : std_logic;
@@ -24,7 +24,7 @@ begin
 	port map(
 		Start, CLk, Rst,
 		PIXEL_DONE, DONE,
-		DATA_A, DATA_K,
+		DATA_IN,
 		DATA_OUT
 	);
 	

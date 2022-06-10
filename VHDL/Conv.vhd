@@ -8,7 +8,7 @@ ENTITY Conv is
 	PORT(
 		Start, CLk, Rst : IN std_logic;
 		PIXEL_DONE, DONE : OUT std_logic;
-		DATA_A, DATA_K : IN std_logic_vector(7 downto 0);
+		DATA_IN : IN std_logic_vector(7 downto 0);
 		DATA_OUT : OUT std_logic_vector(7 downto 0)
 	);
 END Conv; 
@@ -38,7 +38,7 @@ begin
 	PORT MAP (
 		clk, rst,
 
-		DATA_A, DATA_K,
+		DATA_IN,
 		DATA_OUT,
 
 		WE_A, RE_A, WE_K, RE_K, WE_B, RE_B,

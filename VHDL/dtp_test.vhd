@@ -70,7 +70,7 @@ begin
 	tmp3 <= (B_row_idx * x"03") + B_col_idx;	-- 3*3 output
 	A_addr <= tmp1(7 downto 0);
 	K_addr <= tmp2(7 downto 0);
-	B_addr <= tmp3(7 downto 0);
+	B_addr <= (others => '0');
 	
 	-- Mul
 	tmp <= MA_OUT * MK_OUT;

@@ -1,0 +1,1037 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Mon hoc/Thiet ke mach tich hop so/Project
+T_opt
+!s110 1654680528
+V215ziVGa98d]2bXF0TY:n1
+04 11 3 work datapath_tb bhv 1
+=1-9828a63e5a03-62a06bd0-1b5-41b8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+T_opt1
+!s110 1653722662
+VP`KJnDDcfY@KH;WCZC4J_2
+04 8 3 work dtp_test rtl 1
+=1-9828a63e5a03-6291ce26-117-20
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1653884681
+VoRYLaMD7[NHd<e`WmQPS=3
+04 7 3 work conv_tb bhv 1
+=1-9828a63e5a03-62944708-241-1f08
+R1
+R2
+n@_opt2
+R3
+R0
+Ea_mem
+Z4 w1654680493
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8D:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd
+Z9 FD:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd
+l0
+L5
+V_;cR=`Ze3<F=_jV4Fn]DQ2
+!s100 nB]PGCg=C;ec<f727kYMn2
+Z10 OL;C;10.5;63
+32
+Z11 !s110 1654680520
+!i10b 1
+Z12 !s108 1654680520.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd|
+Z14 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Artl
+R5
+R6
+R7
+DEx4 work 5 a_mem 0 22 _;cR=`Ze3<F=_jV4Fn]DQ2
+l29
+L19
+V20E3adWKnkZFW7nLjWn6;3
+!s100 O];TCIV0CfYc]bU<9Y4;N2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eb_mem
+Z17 w1653660639
+R5
+R6
+R7
+R0
+Z18 8D:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd
+Z19 FD:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd
+l0
+L5
+VE9U9W68XjjCGTXha6CdQX1
+!s100 Lm9TXBVJBhFmmKm:3RDcg3
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd|
+Z21 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+DEx4 work 5 b_mem 0 22 E9U9W68XjjCGTXha6CdQX1
+l22
+L19
+VBR1::RD<[_F=;Ebji2jYU0
+!s100 L@]4U;GlE`kElReP7>Oom3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 0
+R15
+R16
+Econtroller
+Z22 w1653719395
+Z23 DPx4 work 5 mylib 0 22 dQ8jZcW@5W]zFXOTeP8n31
+Z24 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R5
+R6
+R7
+R0
+Z26 8D:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd
+Z27 FD:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd
+l0
+L8
+VNVZmA_`kQk^QXlPJE6X[h1
+!s100 _lf9@nV2c2;^==_;FoFi^2
+R10
+32
+R11
+!i10b 1
+R12
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd|
+Z29 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd|
+!i113 0
+R15
+R16
+Artl
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 10 controller 0 22 NVZmA_`kQk^QXlPJE6X[h1
+l24
+L21
+VeO5Wo>:I;oXh_][jIlcLA2
+!s100 gm5bM7P5a8PgoANNc3cPM1
+R10
+32
+R11
+!i10b 1
+R12
+R28
+R29
+!i113 0
+R15
+R16
+Econv
+Z30 w1653720228
+R23
+R24
+R25
+R6
+R7
+R0
+Z31 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd
+Z32 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd
+l0
+L7
+VoIS04<NkW;oME=3^QPe9i2
+!s100 bOGR802T5O78HnIBkW_Y^1
+R10
+32
+Z33 !s110 1654680519
+!i10b 1
+Z34 !s108 1654680519.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd|
+Z36 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd|
+!i113 0
+R15
+R16
+Artl
+R23
+R24
+R25
+R6
+R7
+DEx4 work 4 conv 0 22 oIS04<NkW;oME=3^QPe9i2
+l23
+L16
+VJDM`KRJ<5UIIfE?bX;L6z1
+!s100 c168J?0g<m@nclOlCEjmo3
+R10
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R15
+R16
+Econv_tb
+Z37 w1653720835
+R23
+R24
+R25
+R5
+R6
+R7
+R0
+Z38 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv_tb.vhd
+Z39 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Conv_tb.vhd
+l0
+L8
+VhjOVfO6X`ScE98SdWQLVf2
+!s100 0SadY5dmo9;naz>ABAJjS0
+R10
+32
+R11
+!i10b 1
+R12
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv_tb.vhd|
+Z41 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 7 conv_tb 0 22 hjOVfO6X`ScE98SdWQLVf2
+l21
+L11
+VgW]7P37Q]IDTbE]U7DmkI2
+!s100 AW5kcDbZ1abXgI>cQmd@>0
+R10
+32
+R11
+!i10b 1
+R12
+R40
+R41
+!i113 0
+R15
+R16
+Ecounter
+Z42 w1653534357
+R24
+R25
+R6
+R7
+R0
+Z43 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd
+Z44 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd
+l0
+L6
+VjOXk9:iINYXQSiTj94O;a2
+!s100 nX<02YjLRizDY:z60@06]3
+R10
+32
+R33
+!i10b 1
+R34
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd|
+Z46 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd|
+!i113 0
+R15
+R16
+Artl
+R24
+R25
+R6
+R7
+DEx4 work 7 counter 0 22 jOXk9:iINYXQSiTj94O;a2
+l15
+L13
+V=jg0>BnN;OMh0G_eU91Z_0
+!s100 l0MRh>0o0;XVzE:c5]_Yi0
+R10
+32
+R33
+!i10b 1
+R34
+R45
+R46
+!i113 0
+R15
+R16
+Ecounter_tb
+Z47 w1653550173
+R23
+R24
+R25
+R6
+R7
+R0
+Z48 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd
+Z49 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd
+l0
+L7
+VPhhfhlZY:VNCL9dezi5AM2
+!s100 DChdj?A`fkgB5UZ[;C[HM0
+R10
+32
+R11
+!i10b 1
+R12
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd|
+Z51 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R23
+R24
+R25
+R6
+R7
+DEx4 work 10 counter_tb 0 22 PhhfhlZY:VNCL9dezi5AM2
+l13
+L10
+VXfOJI`DCC]OlDCNJDDi:g0
+!s100 ^Pleic_G]dRM8@AkLPNB[3
+R10
+32
+R11
+!i10b 1
+R12
+R50
+R51
+!i113 0
+R15
+R16
+Edatapath
+Z52 w1653719255
+R23
+R24
+R25
+R5
+R6
+R7
+R0
+Z53 8D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd
+Z54 FD:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd
+l0
+L10
+VnN7R_ih_WMIXR0PZP9g>k2
+!s100 MHnHT7KAaQIFEF>1Q:I_P1
+R10
+32
+R11
+!i10b 1
+R12
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd|
+Z56 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd|
+!i113 0
+R15
+R16
+Artl
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 8 datapath 0 22 nN7R_ih_WMIXR0PZP9g>k2
+l39
+L29
+V^c5N`YPaX[i;lbadGO[?]3
+!s100 c:nUge4^NLj;LUz_S94HW0
+R10
+32
+R11
+!i10b 1
+R12
+R55
+R56
+!i113 0
+R15
+R16
+Edatapath_tb
+Z57 w1653718899
+R23
+R24
+R25
+R5
+R6
+R7
+R0
+Z58 8D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd
+Z59 FD:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd
+l0
+L8
+V<Ame6OXC2LD8G1T_7_ljz3
+!s100 `XHMj`=gk4S[PzlI@nD>40
+R10
+32
+R11
+!i10b 1
+R12
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd|
+Z61 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 11 datapath_tb 0 22 <Ame6OXC2LD8G1T_7_ljz3
+l36
+L11
+VI[e=NWahJVn;2K?L:T6L22
+!s100 KZzn]N8Ce2=]=0>FimSA]2
+R10
+32
+R11
+!i10b 1
+R12
+R60
+R61
+!i113 0
+R15
+R16
+Edpmem
+Z62 w1653552812
+R5
+R6
+R7
+R0
+Z63 8D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd
+Z64 FD:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd
+l0
+L5
+VCCTMKGQVna9^Tj1ciFB661
+!s100 [cXKbffUSVD0J7d^nIhUB2
+R10
+32
+Z65 !s110 1653556734
+!i10b 1
+Z66 !s108 1653556734.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd|
+Z68 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+DEx4 work 5 dpmem 0 22 CCTMKGQVna9^Tj1ciFB661
+l25
+L19
+V81`k148?^``89bf_BkQTb0
+!s100 Yc:<@0Jg:Z[4d>foZ;SKT2
+R10
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 0
+R15
+R16
+Edpmem_tb
+Z69 w1653552531
+R24
+R25
+Z70 DPx4 work 5 mylib 0 22 F_WG[]2ez6k;ZP1egbK[k2
+R5
+R6
+R7
+R0
+Z71 8D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd
+Z72 FD:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd
+l0
+L6
+V?R3Voz>:QSFNfoQcii;Y93
+!s100 cRQ_^JBmU`E1kMXzGjNcn3
+R10
+32
+Z73 !s110 1653556735
+!i10b 1
+R66
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd|
+Z75 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R24
+R25
+R70
+R5
+R6
+R7
+DEx4 work 8 dpmem_tb 0 22 ?R3Voz>:QSFNfoQcii;Y93
+l16
+L9
+VJD8]76:A5lPeHjJ8FNma`3
+!s100 @U^Vnc^2P<ZNGA[D^BL[<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Mon hoc/Thiet ke mach tich hop so/Project
+T_opt
+!s110 1653718934
+V=OP8^nAFkZ7<]cX[=YKO:1
+04 11 3 work datapath_tb bhv 1
+=1-9828a63e5a03-6291bf96-126-b7c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+T_opt1
+!s110 1653580192
+VGzfE]OXdTWCh`VEbEoKgT0
+04 6 3 work mem_tb bhv 1
+=1-9828a63e5a03-628fa19f-2bd-eac
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1653553058
+VEA=MOMJ?BERf_cWWVBQMK2
+04 8 3 work dpmem_tb bhv 1
+=1-9828a63e5a03-628f37a2-169-4e08
+R1
+R2
+n@_opt2
+R3
+R0
+Ea_mem
+Z4 w1653718230
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8D:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd
+Z9 FD:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd
+l0
+L5
+V_;cR=`Ze3<F=_jV4Fn]DQ2
+!s100 nB]PGCg=C;ec<f727kYMn2
+Z10 OL;C;10.5;63
+32
+Z11 !s110 1653718929
+!i10b 1
+Z12 !s108 1653718929.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd|
+Z14 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/A_mem.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Artl
+R5
+R6
+R7
+DEx4 work 5 a_mem 0 22 _;cR=`Ze3<F=_jV4Fn]DQ2
+l29
+L19
+V20E3adWKnkZFW7nLjWn6;3
+!s100 O];TCIV0CfYc]bU<9Y4;N2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eb_mem
+Z17 w1653660639
+R5
+R6
+R7
+R0
+Z18 8D:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd
+Z19 FD:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd
+l0
+L5
+VE9U9W68XjjCGTXha6CdQX1
+!s100 Lm9TXBVJBhFmmKm:3RDcg3
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd|
+Z21 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/B_mem.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+DEx4 work 5 b_mem 0 22 E9U9W68XjjCGTXha6CdQX1
+l22
+L19
+VBR1::RD<[_F=;Ebji2jYU0
+!s100 L@]4U;GlE`kElReP7>Oom3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 0
+R15
+R16
+Econtroller
+Z22 w1653634321
+Z23 DPx4 work 5 mylib 0 22 cn=AVND2<0GR>SkoOMbJP1
+Z24 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R5
+R6
+R7
+R0
+Z26 8D:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd
+Z27 FD:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd
+l0
+L8
+VNVZmA_`kQk^QXlPJE6X[h1
+!s100 _lf9@nV2c2;^==_;FoFi^2
+R10
+32
+R11
+!i10b 1
+R12
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd|
+Z29 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/controller.vhd|
+!i113 0
+R15
+R16
+Artl
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 10 controller 0 22 NVZmA_`kQk^QXlPJE6X[h1
+l24
+L21
+VD:GZd@=zhKMD:R>`_QR]o3
+!s100 LXMBBQoiFjRDZnVFgKUz]3
+R10
+32
+R11
+!i10b 1
+R12
+R28
+R29
+!i113 0
+R15
+R16
+Econv
+Z30 w1653641392
+R24
+R25
+R6
+R7
+R0
+Z31 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd
+Z32 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd
+l0
+L6
+VEa>ODgIk]M<Q67j6i;mNM3
+!s100 >;Bjzf^]oR9G1?i2ZE1zf3
+R10
+32
+Z33 !s110 1653718928
+!i10b 1
+Z34 !s108 1653718928.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd|
+Z36 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Conv.vhd|
+!i113 0
+R15
+R16
+Artl
+R24
+R25
+R6
+R7
+DEx4 work 4 conv 0 22 Ea>ODgIk]M<Q67j6i;mNM3
+l16
+L15
+Vf_A<V3<g<];YTg5ej0`iH3
+!s100 A4kzG6Ic_6j1JJN7TV;OG2
+R10
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R15
+R16
+Ecounter
+Z37 w1653534357
+R24
+R25
+R6
+R7
+R0
+Z38 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd
+Z39 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd
+l0
+L6
+VjOXk9:iINYXQSiTj94O;a2
+!s100 nX<02YjLRizDY:z60@06]3
+R10
+32
+R11
+!i10b 1
+R34
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd|
+Z41 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter.vhd|
+!i113 0
+R15
+R16
+Artl
+R24
+R25
+R6
+R7
+DEx4 work 7 counter 0 22 jOXk9:iINYXQSiTj94O;a2
+l15
+L13
+V=jg0>BnN;OMh0G_eU91Z_0
+!s100 l0MRh>0o0;XVzE:c5]_Yi0
+R10
+32
+R11
+!i10b 1
+R34
+R40
+R41
+!i113 0
+R15
+R16
+Ecounter_tb
+Z42 w1653550173
+R23
+R24
+R25
+R6
+R7
+R0
+Z43 8D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd
+Z44 FD:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd
+l0
+L7
+VPhhfhlZY:VNCL9dezi5AM2
+!s100 DChdj?A`fkgB5UZ[;C[HM0
+R10
+32
+R11
+!i10b 1
+R12
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd|
+Z46 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/Counter_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R23
+R24
+R25
+R6
+R7
+DEx4 work 10 counter_tb 0 22 PhhfhlZY:VNCL9dezi5AM2
+l13
+L10
+VXfOJI`DCC]OlDCNJDDi:g0
+!s100 ^Pleic_G]dRM8@AkLPNB[3
+R10
+32
+R11
+!i10b 1
+R12
+R45
+R46
+!i113 0
+R15
+R16
+Edatapath
+Z47 w1653659386
+R23
+R24
+R25
+R5
+R6
+R7
+R0
+Z48 8D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd
+Z49 FD:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd
+l0
+L10
+VzDz2Wj?KWg_ZeAPA@2HW02
+!s100 =492cD_A4I_ihLa1>igK40
+R10
+32
+R11
+!i10b 1
+R12
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd|
+Z51 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath.vhd|
+!i113 0
+R15
+R16
+Artl
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 8 datapath 0 22 zDz2Wj?KWg_ZeAPA@2HW02
+l44
+L34
+VmVT6WJ]=^9HDY;_1QD6820
+!s100 ZFJ>4z1L`6n1b2b;X>>D>2
+R10
+32
+R11
+!i10b 1
+R12
+R50
+R51
+!i113 0
+R15
+R16
+Edatapath_tb
+Z52 w1653718899
+R23
+R24
+R25
+R5
+R6
+R7
+R0
+Z53 8D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd
+Z54 FD:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd
+l0
+L8
+V<Ame6OXC2LD8G1T_7_ljz3
+!s100 `XHMj`=gk4S[PzlI@nD>40
+R10
+32
+R11
+!i10b 1
+R12
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd|
+Z56 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/datapath_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 11 datapath_tb 0 22 <Ame6OXC2LD8G1T_7_ljz3
+l36
+L11
+VI[e=NWahJVn;2K?L:T6L22
+!s100 KZzn]N8Ce2=]=0>FimSA]2
+R10
+32
+R11
+!i10b 1
+R12
+R55
+R56
+!i113 0
+R15
+R16
+Edpmem
+Z57 w1653552812
+R5
+R6
+R7
+R0
+Z58 8D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd
+Z59 FD:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd
+l0
+L5
+VCCTMKGQVna9^Tj1ciFB661
+!s100 [cXKbffUSVD0J7d^nIhUB2
+R10
+32
+Z60 !s110 1653556734
+!i10b 1
+Z61 !s108 1653556734.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd|
+Z63 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem.vhd|
+!i113 0
+R15
+R16
+Artl
+R5
+R6
+R7
+DEx4 work 5 dpmem 0 22 CCTMKGQVna9^Tj1ciFB661
+l25
+L19
+V81`k148?^``89bf_BkQTb0
+!s100 Yc:<@0Jg:Z[4d>foZ;SKT2
+R10
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 0
+R15
+R16
+Edpmem_tb
+Z64 w1653552531
+R24
+R25
+Z65 DPx4 work 5 mylib 0 22 F_WG[]2ez6k;ZP1egbK[k2
+R5
+R6
+R7
+R0
+Z66 8D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd
+Z67 FD:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd
+l0
+L6
+V?R3Voz>:QSFNfoQcii;Y93
+!s100 cRQ_^JBmU`E1kMXzGjNcn3
+R10
+32
+Z68 !s110 1653556735
+!i10b 1
+R61
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd|
+Z70 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/dpmem_tb.vhd|
+!i113 0
+R15
+R16
+Abhv
+R24
+R25
+R65
+R5
+R6
+R7
+DEx4 work 8 dpmem_tb 0 22 ?R3Voz>:QSFNfoQcii;Y93
+l16
+L9
+VJD8]76:A5lPeHjJ8FNma`3
+!s100 @U^Vnc^2P<ZNGA[D^BL[<3
+R10
+32
+R68
+!i10b 1
+R61
+R69
+R70
+!i113 0
+R15
+R16
+Edtp_test
+Z71 w1653718842
+R23
+R24
+R25
+R5
+R6
+R7
+R0
+Z72 8D:/Mon hoc/Thiet ke mach tich hop so/Project/dtp_test.vhd
+Z73 FD:/Mon hoc/Thiet ke mach tich hop so/Project/dtp_test.vhd
+l0
+L10
+Ve`_WFi5WXahlM>^k`[XJK3
+!s100 Cmo2?l0m38z;lf2V:bUYn2
+R10
+32
+R11
+!i10b 1
+R12
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Mon hoc/Thiet ke mach tich hop so/Project/dtp_test.vhd|
+Z75 !s107 D:/Mon hoc/Thiet ke mach tich hop so/Project/dtp_test.vhd|
+!i113 0
+R15
+R16
+Artl
+R23
+R24
+R25
+R5
+R6
+R7
+DEx4 work 8 dtp_test 0 22 e`_WFi5WXahlM>^k`[XJK3
+l44
+L34
+VE734T:4PLc_REzR]LgX^f2
+!s100 oR5aDL0X<b6DlSk?b26b_1

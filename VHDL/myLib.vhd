@@ -91,7 +91,7 @@ COMPONENT datapath is
 	port(
 		clk, rst : IN std_logic;
 
-		DATA_A, DATA_K : IN std_logic_vector(DATA_WIDTH - 1 downto 0);
+		DATA_IN : IN std_logic_vector(DATA_WIDTH - 1 downto 0);
 		DATA_OUT : OUT std_logic_vector(DATA_WIDTH-1 downto 0);
 
 		WE_A, RE_A, WE_K, RE_K, WE_B, RE_B : IN std_logic;
@@ -122,7 +122,7 @@ COMPONENT Conv is
 	PORT(
 		Start, CLk, Rst : IN std_logic;
 		PIXEL_DONE, DONE : OUT std_logic;
-		DATA_A, DATA_K : IN std_logic_vector(7 downto 0);
+		DATA_IN : IN std_logic_vector(7 downto 0);
 		DATA_OUT : OUT std_logic_vector(7 downto 0)
 	);
 END COMPONENT; 
