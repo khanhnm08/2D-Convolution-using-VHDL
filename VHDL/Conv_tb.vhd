@@ -16,15 +16,22 @@ architecture BHV of Conv_tb is
 	Signal start, clk, rst : std_logic;
 	Signal DATA_IN : std_logic_vector(DATA_WIDTH - 1 downto 0);
 	Signal DATA_OUT : std_logic_vector(DATA_WIDTH-1 downto 0);
-	
 	signal PIXEL_DONE, DONE : std_logic;
+	Signal REn, Wen : std_logic;
+	Signal RAddr, WAddr : std_logic_vector(7 downto 0);
 begin 	
 	
 	DUT: Conv
 	port map(
 		Start, CLk, Rst,
 		PIXEL_DONE, DONE,
+	
+		REn,
+		RAddr,
 		DATA_IN,
+
+		Wen,
+		WAddr,
 		DATA_OUT
 	);
 	

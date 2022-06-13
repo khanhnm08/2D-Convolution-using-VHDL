@@ -8,7 +8,13 @@ ENTITY Conv is
 	PORT(
 		Start, CLk, Rst : IN std_logic;
 		PIXEL_DONE, DONE : OUT std_logic;
+	
+		REn : OUT std_logic;
+		RAddr : IN std_logic_vector(7 downto 0);
 		DATA_IN : IN std_logic_vector(7 downto 0);
+
+		Wen : OUT std_logic;
+		WAddr : OUT std_logic_vector(7 downto 0);
 		DATA_OUT : OUT std_logic_vector(7 downto 0)
 	);
 END Conv; 
