@@ -19,9 +19,9 @@ end K_mem;
 architecture RTL of K_mem is
 	type mem_array is array (0 to (2**ADDR_WIDTH) -1) of std_logic_vector (DATA_WIDTH - 1 downto 0);
 	signal mem_data: mem_array :=(
-	x"01", x"00", x"01",
 	x"00", x"01", x"00",
-	x"01", x"00", x"01",
+	x"00", x"01", x"00",
+	x"00", x"01", x"00",
 	others => x"00"
   	); 
 begin
